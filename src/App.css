@@ -1,0 +1,5 @@
+@import "devicon/devicon.min.css";
+@import "tailwindcss";
+@plugin "daisyui" {
+   themes: winter --default, night --prefersdark;
+ }
