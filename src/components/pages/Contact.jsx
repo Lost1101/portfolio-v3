@@ -4,8 +4,8 @@ import Form from "../organisms/Form"
 
 export default function Contact(){
     return(
-        <div className="h-screen mx-20 grid place-items-center">
-            <div className="w-1/2">
+        <div className="h-screen grid place-items-center mx-16 md:mx-20 mt-0">
+            <div className="w-3/4 md:w-1/2">
                 <Text type="h4" className={"text-center text-xl font-bold my-5"}>More in connect with me</Text>
                 <Form action={'https://getform.io/f/bolzkyxa'} method={'POST'}>
                     <FormField id={'name'} typeform={'text'} placeholder={'Your name...'} label={'Name'} required/>

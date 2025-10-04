@@ -6,7 +6,7 @@ export default function Card({title, children, className=''}){
     return(
         <div className={`${className} bg-base-200 rounded-lg shadow-lg`}>
             <div className='rounded-t-lg'>
-                <Text type="h3" className="font-bold text-center text-2xl p-5">{title}</Text>
+                <Text type="h3" className="font-bold text-center text-lg md:text-2xl p-5">{title}</Text>
             </div>
             <div>
                 {children}
