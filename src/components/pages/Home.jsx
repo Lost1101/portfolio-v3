@@ -1,9 +1,9 @@
 import SigIcon from "../../assets/icon.png"
 import Text from "../atoms/Text"
 import Typewriter from "../atoms/Typewriter"
-import ThemeToggle from "../molecules/ThemeToggle"
 import Button from "../atoms/Button"
 import Image from "../atoms/Image"
+import Pdf from "../../assets/CV.pdf"
 
 export default function Home(){
     return(
@@ -26,7 +26,9 @@ export default function Home(){
                         <div className="">
                             <Text type="p" className="text-xs md:text-base">I build web applications and software with a focus on scalable, maintainable, and user-friendly solutions. I enjoy building application that are not only functional but also provide a positive experience for users putting care and attention into every project I develop.</Text>                 
                         </div>
-                        <Button className={'mt-5'}>Resume &#62;</Button>
+                        <a href={Pdf} download={"CV.pdf"}>
+                            <Button className={'mt-5'}>Curriculum Vitae &#62;</Button>
+                        </a>
                     </div>
                 </div>
             </div>
