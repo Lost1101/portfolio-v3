@@ -11,7 +11,6 @@ import Contact from './components/pages/Contact'
 
 function App() {
   const [activePage, setActivePage] = useState('Home')
-  console.log(activePage)
 
   const renderPage = () => {
     switch (activePage) {
