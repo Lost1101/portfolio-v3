@@ -68,7 +68,7 @@ export default function Project(){
                                     <Tag text="Data Generate"/>
                                 </div>
                                 <div className="text-right mt-5">
-                                    <a href="" className="text-center text-accent"><Button>Private</Button></a>
+                                    <a href="" className="text-center text-accent"><Button>On Progress</Button></a>
                                 </div>
                             </div>
                         </Card>
