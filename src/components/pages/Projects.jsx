@@ -14,12 +14,65 @@ import projectimg7 from '../../assets/project7.png'
 import projectimg8 from '../../assets/project8.png'
 import projectimg9 from '../../assets/project9.png'
 import projectimg10 from '../../assets/project10.png'
+import projectimg11 from '../../assets/project11.png'
+import projectimg12 from '../../assets/project12.png'
 
 export default function Project(){
     return(
         <div className="mx-16 md:mx-20">
             <div className="align-middle pt-20">
                 <ul className="list-disc">
+                    <li className="my-10"><Text type="h1" className="text-xl md:text-3xl font-bold">Work Project</Text></li>
+                    <div className="md:flex md:gap-10 grid gap-10">
+                        <Card title={'PEMANIS'} className="md:w-1/4 py-2 h-fit">
+                            <div>
+                                <Image raggable={false} onContextMenu={e => e.preventDefault()} src={projectimg11} alt="Icon"></Image>
+                            </div>
+                            <div className="p-5">
+                                <div className="flex flex-wrap justify-center gap-2 mt-2">
+                                    <Tag text="HTML"/>
+                                    <Tag text="CSS"/>
+                                    <Tag text="Bootstrap"/>
+                                    <Tag text="PHP"/>
+                                    <Tag text="JavaScript"/>
+                                    <Tag text="CI3"/>
+                                    <Tag text="Google Auth"/>
+                                    <Tag text="Fullstack"/>
+                                    <Tag text="MySQL"/>
+                                    <Tag text="Python"/>
+                                    <Tag text="Data Cleaning"/>
+                                    <Tag text="Legacy Code"/>
+                                </div>
+                                <div className="text-right mt-5">
+                                    <a href="https://pemanis-lapi.com/" className="text-center text-accent"><Button>Web</Button></a>
+                                </div>
+                            </div>
+                        </Card>
+                        <Card title={'Monev KUR/NPL'} className="md:w-1/4 py-2 h-fit">
+                            <div>
+                                <Image raggable={false} onContextMenu={e => e.preventDefault()} src={projectimg12} alt="Icon"></Image>
+                            </div>
+                            <div className="p-5">
+                                <div className="flex flex-wrap justify-center gap-2 mt-2">
+                                    <Tag text="Finance/Banking"/>
+                                    <Tag text="PHP"/>
+                                    <Tag text="Laravel"/>
+                                    <Tag text="ReactJS"/>
+                                    <Tag text="System Analysis"/>
+                                    <Tag text="Backend Infrastructure"/>
+                                    <Tag text="GIS"/>
+                                    <Tag text="RESTful"/>
+                                    <Tag text="Fullstack"/>
+                                    <Tag text="MySQL"/>
+                                    <Tag text="Python"/>
+                                    <Tag text="Data Generate"/>
+                                </div>
+                                <div className="text-right mt-5">
+                                    <a href="" className="text-center text-accent"><Button>Private</Button></a>
+                                </div>
+                            </div>
+                        </Card>
+                    </div>
                     <li className="my-10"><Text type="h1" className="text-xl md:text-3xl font-bold">Freelance Projects</Text></li>
                     <div className="md:flex md:gap-10 grid gap-10">
                         <Card title={'Wedding RSVP 1'} className="md:w-1/4 py-2 h-fit">

@@ -30,11 +30,12 @@ export default function Skills(){
                             <SkillBadge skill="nodejs-plain" name={'NodeJS'}/>
                             <SkillBadge skill="php-plain" name={'PHP'}/>
                             <SkillBadge skill="laravel-original" name={'Laravel'}/>
+                            <SkillBadge skill="codeigniter-plain" name={'CodeIgniter'}/>
                             <SkillBadge skill="express-original" name={'ExpressJS'}/>
                             <SkillBadge skill="mysql-plain-wordmark" name={'MySQL'}/>
                         </div>
                         <div className="p-4">
-                            <Text type="p" className="text-xs md:text-sm  text-justify">In software development, back-end refers to the data management and processing behind the scenes. <sup><a className="text-accent" href="https://en.wikipedia.org/wiki/Front_end_and_back_end">[1]</a></sup></Text>
+                            <Text type="p" className="text-xs md:text-sm text-justify">In software development, back-end refers to the data management and processing behind the scenes. <sup><a className="text-accent" href="https://en.wikipedia.org/wiki/Front_end_and_back_end">[2]</a></sup></Text>
                         </div>
                     </Card>
                     <Card title={'Misc'} className="mb-10 md:w-1/4">
@@ -44,6 +45,10 @@ export default function Skills(){
                             <SkillBadge skill="canva-original" name={'Canva'}/>
                             <SkillBadge skill="figma-plain" name={'Figma'}/>
                             <SkillBadge skill="git-plain" name={'Git'}/>
+                            <SkillBadge skill="docker-plain" name={'Docker'}/>
+                            <SkillBadge skill="ubuntu-plain" name={'Ubuntu'}/>
+                            <SkillBadge skill="debian-plain" name={'Debian'}/>
+
                         </div>
                         <div className="p-4">
                             <Text type="p" className="text-xs md:text-sm text-justify">Supportive tools to help my workflow and enhance productivity.</Text>
